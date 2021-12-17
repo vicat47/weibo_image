@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  weibo:
+    build: .
+    volumes: 
+      - ./data:/app/data
+    env_file: 
+      - ./data/request.env
+    container_name: weibo
+    restart: always

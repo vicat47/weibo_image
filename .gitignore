@@ -1,0 +1,6 @@
+__pycache__
+venv
+
+data/pics/**
+data/weibo.db
+data/request.env
